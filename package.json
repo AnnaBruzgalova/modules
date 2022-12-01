@@ -1,0 +1,40 @@
+{
+    "name": "defender-game",
+    "version": "1.0.0",
+    "description": "\"Browser based game\"",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --mode production",
+        "lint": "eslint .",
+        "start": "http-server dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AnnaBruzgalova/modules.git"
+    },
+    "keywords": [
+        "game"
+    ],
+    "author": "Anna Bryzgalova",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/AnnaBruzgalova/modules/issues"
+    },
+    "homepage": "https://github.com/AnnaBruzgalova/modules#readme",
+    "devDependencies": {
+        "@babel/cli": "^7.19.3",
+        "@babel/core": "^7.20.5",
+        "@babel/preset-env": "^7.20.2",
+        "eslint": "^8.28.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.26.0",
+        "live-server": "^1.2.2",
+        "webpack": "^5.75.0",
+        "webpack-cli": "^5.0.0",
+        "webpack-dev-server": "^4.11.1"
+    },
+    "dependencies": {
+        "core-js": "^3.26.1"
+    }
+}
